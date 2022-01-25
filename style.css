@@ -17,14 +17,16 @@ div{
     width: 40%;
     padding: 20px;
     margin: 40px;
-    border: 2px solid red;
+    border: 2px solid blue;
     display: inline-block;
     border-radius: 5px;
-    transition: background-color 1s , border-radius 0.5s;
+    background-color: skyblue;
+    transition: background-color 1s , border-radius 0.5s , color 0.5s;
 }
 div:hover{
-    background-color: lightyellow;
+    background-color: rgb(46, 46, 46);
     border-radius: 30px;
+    color: white;
 }
 div h2{
     text-align: center;
